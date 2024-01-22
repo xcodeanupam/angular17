@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "build:tailwind": "tailwindcss build src/styles.scss -o src/tailwind.css",
     "serve:ssr:myresume": "node dist/myresume/server/server.mjs"
   },
   "private": true,
@@ -21,8 +22,12 @@
     "@angular/platform-server": "^17.0.0",
     "@angular/router": "^17.0.0",
     "@angular/ssr": "^17.0.10",
+    "autoprefixer": "^10.4.17",
     "express": "^4.18.2",
+    "postcss": "^8.4.33",
+    "postcss-import": "^16.0.0",
     "rxjs": "~7.8.0",
+    "tailwindcss": "^3.4.1",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.2"
   },

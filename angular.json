@@ -30,7 +30,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+             "src/tailwind.css"
+
             ],
             "scripts": [],
             "server": "src/main.server.ts",
@@ -95,12 +97,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/tailwind.css"
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "664dd87e-3188-4b8a-9f5e-48c878d83433"
   }
 }
